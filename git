@@ -1,0 +1,30 @@
+git init
+git add <file>
+git status
+git commit
+git push
+git pull
+git clone
+
+git config --global user.name 'Tanvi Patil'
+git config --global user.email 'patiltanvi49@gmail.com'
+git rm --cached index.html
+git add *.html
+git add . 
+git commit -> vim press 'i' -> add a comment -> esc(out of insert mode) -> (type) :wq hit enter
+     or
+git commit -m "initial commit"
+touch .gitignore
+(Go into gitignore and mention the file name eg. 'log.txt' which you dont want to add or suppose folder 'dir1' and 'dir2' eg. /dir2 or *.txt)
+
+git branch login
+git checkout login
+#go to master for merging
+git merge login
+git remote
+git remote add origin //link
+git push -u origin master
+
+
+git clone //link
+
